@@ -1,0 +1,13 @@
+{
+  "source_url": "https://www.workcover.wa.gov.au/wp-content/uploads/2025/12/WorkCover-WA-Annual-Statistical-Report-2024-25-BISstatrep.pdf",
+  "publication": "November 2025",
+  "data_extract": "2025-09-17",
+  "analysed": "2026-11-25",
+  "source_sha256": "501bc750c349fea9530f5c5fb94bb98a760f74063c2154f7bc944cc80d5bb908",
+  "pages": {
+    "industry_claims.csv": 23,
+    "payments_real_aud_m.csv": 12,
+    "claim_buckets.csv": 10
+  },
+  "scope": "WA scheme; latest year provisional; not Suncorp portfolio data"
+}

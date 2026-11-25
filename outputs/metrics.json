@@ -1,0 +1,17 @@
+{
+  "lost_time_yoy_pct": 7.642665073199881,
+  "lost_time_increase": 1279.0,
+  "total_in_scope_claims_yoy_pct": -4.897592391507843,
+  "total_payments_yoy_pct": 16.726963183656093,
+  "income_payment_growth_contribution_pct": 61.70483460559797,
+  "top_three_industry_growth_share_pct": 54.33932759968726,
+  "industry_sum_2022_23": 15517.0,
+  "overall_lost_time_2022_23": 15518.0,
+  "payment_categories_minus_total_aud_m_by_year": {
+    "2021/22": 0.0,
+    "2022/23": -0.1,
+    "2023/24": 0.0,
+    "2024/25p": 0.0
+  },
+  "annual_payment_reconciliation_tolerance_aud_m": 0.1
+}

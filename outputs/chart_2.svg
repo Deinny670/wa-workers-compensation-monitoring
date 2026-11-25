@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="490" height="325" preserveAspectRatio="xMinYMin meet" viewBox="0 0 490 325" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="490" height="325"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-325)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="0" y="310" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,620) scale(1,-1)">Annual payment increase and its components (inflation-adjusted AUD)</text>
+			<text x="0" y="293" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,586) scale(1,-1)">Total payments: $1,409.7m to $1,645.5m (+16.7%).</text>
+			<text x="0" y="263" style="font-family: Helvetica-Bold; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,526) scale(1,-1)">Total increase</text>
+			<rect x="205" y="260" width="205.0" height="13" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,24%,28%); fill-rule: evenodd;"/>
+			<text x="415.0" y="263" style="font-family: Helvetica-Bold; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,526) scale(1,-1)">$235.8m</text>
+			<text x="0" y="221" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,442) scale(1,-1)">Income payments</text>
+			<rect x="205" y="218" width="126.49491094147584" height="13" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,33%,41%); fill-rule: evenodd;"/>
+			<text x="336.49491094147584" y="221" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,442) scale(1,-1)">$145.5m (61.7%)</text>
+			<text x="0" y="194" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,388) scale(1,-1)">Medical &amp; hospital</text>
+			<rect x="205" y="191" width="25.47285835453772" height="13" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,33%,41%); fill-rule: evenodd;"/>
+			<text x="235.47285835453772" y="194" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,388) scale(1,-1)">$29.3m</text>
+			<text x="0" y="167" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,334) scale(1,-1)">Lump sums</text>
+			<rect x="205" y="164" width="19.99575911789651" height="13" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,33%,41%); fill-rule: evenodd;"/>
+			<text x="229.9957591178965" y="167" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,334) scale(1,-1)">$23.0m</text>
+			<text x="0" y="140" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,280) scale(1,-1)">Allied health*</text>
+			<rect x="205" y="137" width="13.997031382527553" height="13" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,33%,41%); fill-rule: evenodd;"/>
+			<text x="223.99703138252755" y="140" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,280) scale(1,-1)">$16.1m</text>
+			<text x="0" y="113" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,226) scale(1,-1)">Legal &amp; miscellaneous</text>
+			<rect x="205" y="110" width="11.215012722646321" height="13" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,33%,41%); fill-rule: evenodd;"/>
+			<text x="221.21501272264632" y="113" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,226) scale(1,-1)">$12.9m</text>
+			<text x="0" y="86" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,172) scale(1,-1)">Workplace rehabilitation</text>
+			<rect x="205" y="83" width="7.824427480916029" height="13" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,33%,41%); fill-rule: evenodd;"/>
+			<text x="217.82442748091603" y="86" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,172) scale(1,-1)">$9.0m</text>
+			<path d="M 0,249 L 490,249 Z" style="stroke: rgb(85%,85%,85%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="0" y="40" style="font-family: Helvetica; font-size: 7px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,80) scale(1,-1)">* Includes other treatment services.</text>
+			<text x="0" y="30" style="font-family: Helvetica; font-size: 7px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,60) scale(1,-1)">Source: WorkCover WA Annual Statistical Report 2024/25, p12.</text>
+		</g>
+	</g>
+</svg>
