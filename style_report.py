@@ -27,6 +27,7 @@ PALE = colors.HexColor('#F3F6F7')
 BODY = colors.HexColor('#344649')
 MUTED = colors.HexColor('#56696C')
 RULE = colors.HexColor('#D9E3E3')
+LINK_COLOR = '#004346'
 W = A4[0] - 88
 REG, BOLD = 'Helvetica', 'Helvetica-Bold'
 font_dir = Path('C:/Windows/Fonts')
@@ -146,7 +147,7 @@ def note_panel(items):
     return table
 
 
-def main():
+def main(target=None):
     markdown=(ROOT/'outputs/FINDINGS.md').read_text(encoding='utf-8')
     checks=section(markdown,'Data checks')
     scope=section(markdown,'Scope and limitations')
@@ -192,9 +193,9 @@ def main():
     story.extend([
         Spacer(1,9),
         p('Source: WorkCover WA, Annual Statistical Report 2024/25, pp 2, 4, 10, 12, 23 and glossary pp 40-42. Derived analysis is independent and is not attributable to WorkCover WA.','small'),
-        p(f'<link href="{URL}" color="#004346">Open the original WorkCover WA Annual Statistical Report 2024/25</link>','small'),
+        p(f'<link href="{URL}" color="{LINK_COLOR}">Open the original WorkCover WA Annual Statistical Report 2024/25</link>','small'),
     ])
-    target=ROOT/'outputs/WA_Workers_Compensation_Analysis_Styled.pdf'
+    target=Path(target) if target is not None else ROOT/'outputs/WA_Workers_Compensation_Analysis_Styled.pdf'
     SimpleDocTemplate(str(target),pagesize=A4,leftMargin=44,rightMargin=44,
                       topMargin=63,bottomMargin=49,
                       title='WA Workers Compensation Monitoring - Styled Edition',

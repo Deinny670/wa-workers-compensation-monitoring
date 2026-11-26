@@ -1,8 +1,10 @@
 # WA workers compensation monitoring
 
-An independent, AI-assisted case study of public WA workers compensation data, prepared to practise portfolio performance analysis. It is not commissioned by Suncorp and uses no Suncorp customer data.
+An independent, AI-assisted case study of public WA workers compensation data, prepared to practise portfolio performance analysis. It is not commissioned by Suncorp or EY and uses no Suncorp customer data.
 
 Start with [the final two-page analysis](outputs/WA_Workers_Compensation_Analysis_Styled.pdf), [computed findings](outputs/FINDINGS.md) and [metrics](outputs/metrics.json). The [original report layout](outputs/WA_Workers_Compensation_Analysis.pdf) is retained for reference. The final edition uses the same data and findings with a clearer visual hierarchy.
+
+An additional [EY-inspired visual edition](outputs/WA_Workers_Compensation_Analysis_EY.pdf) presents the same analysis using charcoal, yellow and square panels. It is an independent work sample, not an EY publication. Both existing report layouts remain available.
 
 ## Question
 
@@ -16,6 +18,7 @@ Use Python 3.10 or later:
 python -m pip install -r requirements.txt
 python analyse.py
 python style_report.py
+python style_report_ey.py
 ```
 
 To extract the source tables again, download the original PDF and run:
@@ -25,6 +28,8 @@ python analyse.py --source-pdf /path/to/WorkCover-WA-Annual-Statistical-Report-2
 ```
 
 `style_report.py` generates the final styled edition after the analysis outputs are available. It uses Arial on Windows when installed, with a Helvetica fallback elsewhere. Both versions remain two-page reports with selectable text.
+
+`style_report_ey.py` generates the additional charcoal-and-yellow edition without overwriting either existing PDF. It reuses the content and layout functions in `style_report.py`. The palette and typography hierarchy are informed by [EY Australia's designed Transparency Report 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-au/pdfs/ey-au-transparency-report-fy26.pdf). Arial is used as an available substitute for the report's EY Interstate typeface; no EY logo or proprietary font is embedded.
 
 No credentials, API keys or live AI service are needed. Checked-in CSVs support offline reproduction. Extraction fails if table row counts change. Reconciliation checks verify the latest industry totals against the days-lost table. For the six payment categories, the annual reconciliation allows a maximum AUD 0.1m difference from the published total: the only observed difference is -AUD 0.1m in 2022/23, consistent with rounding of displayed values. The latest annual component increases must sum to the total increase, with only floating-point precision allowed. Yearly differences and the tolerance are recorded in `outputs/metrics.json`. SVG charts, metrics and PDF are generated deterministically from these CSVs.
 
